@@ -77,7 +77,7 @@
   <script>
     const products=[
       {id:1,title:"Koszulka Minimal",price:0.30,img:"https://picsum.photos/seed/p1/600/400",description:"Bawełniana koszulka, krój regular."},
-      {id:2,title:"Kubek Poranna kawa",price:1.20,img:"https://picsum.photos/seed/p2/600/400",description:"Ceramiczny kubek 330ml."},
+      {id:2,title:"Kubek Poranna kawa",price:2.20,img:"https://picsum.photos/seed/p2/600/400",description:"Ceramiczny kubek 330ml."},
       {id:3,title:"Torba płócienna",price:4.10,img:"https://picsum.photos/seed/p3/600/400",description:"Wytrzymała torba na zakupy."},
       {id:4,title:"Plakat A3",price:19.00,img:"https://picsum.photos/seed/p4/600/400",description:"Plakat drukowany na matowym papierze."}
     ];
