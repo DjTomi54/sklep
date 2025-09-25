@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Deliro</title>
   <style>
-    :root{--accent:#f0f0f0;--muted:#6b7280}
+    :root{--accent:#f0f0f0;--muted:#f0f0f0}
     *{box-sizing:border-box}
-    body{font-family:Inter,system-ui,Arial,sans-serif;margin:0;background:#000000;color:#0f172a}
+    body{font-family:Inter,system-ui,Arial,sans-serif;margin:0;background:#000000;color:#b8cfc7}
     .container{max-width:1100px;margin:24px auto;padding:16px}
     header{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;flex-wrap:wrap;gap:8px}
     h1{margin:0;font-size:20px}
     .search{display:flex;gap:8px;flex-wrap:wrap}
-    input,select,button{padding:8px;border:1px solid #e6e7eb;border-radius:8px}
+    input,select,button{padding:8px;border:1px solid #137858;border-radius:8px}
     button.primary{background:var(--accent);color:white;border:none;cursor:pointer}
     .grid{display:grid;grid-template-columns:1fr 320px;gap:18px}
     .products{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
@@ -21,13 +21,13 @@
     .card .body{padding:10px}
     .price{font-weight:700}
     aside{background:white;padding:12px;border-radius:10px;box-shadow:0 6px 18px rgba(15,23,42,0.04)}
-    .cart-item{display:flex;justify-content:space-between;gap:8px;padding:8px 0;border-bottom:1px dashed #eef2f7}
+    .cart-item{display:flex;justify-content:space-between;gap:8px;padding:8px 0;border-bottom:1px dashed #a5d9cf}
     .small{font-size:13px;color:var(--muted)}
     footer{margin-top:18px;text-align:center;color:var(--muted);font-size:13px}
     .modal{position:fixed;inset:0;background:rgba(2,6,23,0.5);display:flex;align-items:center;justify-content:center;padding:16px;z-index:100}
     .modal .panel{background:white;border-radius:10px;max-width:760px;width:100%;overflow:auto;max-height:90vh;padding:16px;position:relative}
     .modal h3{margin-top:0}
-    .close-btn{position:absolute;top:8px;right:8px;cursor:pointer;background:#f1f5f9;border:none;border-radius:6px;padding:4px 8px}
+    .close-btn{position:absolute;top:8px;right:8px;cursor:pointer;background:#fa0202;border:none;border-radius:6px;padding:4px 8px}
     @media(max-width:880px){.grid{grid-template-columns:1fr}}
   </style>
 </head>
@@ -59,7 +59,7 @@
         <p class="small">Darmowa wysyłka od 100 zł!</p>
 
         <p class="medium"> Szanowni państwo, w tej chwili usługa "BLIK" oraz "Przelewy 24" są nieaktywne.
-        zapraszamy do płatności poprzez "PayPal" lub kartą :) 
+        Zapraszamy do płatności poprzez "PayPal" lub kartą :) 
         Za utrudnienia przepraszamy.</p>
       </aside>
     </main>
