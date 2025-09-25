@@ -72,13 +72,13 @@
   </div>
 
   <!-- PayPal Sandbox SDK -->
-  <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=PLN"></script>
+  <script src="https://www.paypal.com/sdk/js?client-id=AWbznFuffpw8KlOhyDmuFXJw4EDPTvK4lzfH65OwYnYLxC_Gm9VxVO781igL8tuXg22m5vrf1Es__pWU&currency=PLN"></script>
 
   <script>
     const products=[
-      {id:1,title:"Koszulka Minimal",price:49.99,img:"https://picsum.photos/seed/p1/600/400",description:"Bawełniana koszulka, krój regular."},
-      {id:2,title:"Kubek Poranna kawa",price:29.99,img:"https://picsum.photos/seed/p2/600/400",description:"Ceramiczny kubek 330ml."},
-      {id:3,title:"Torba płócienna",price:39.50,img:"https://picsum.photos/seed/p3/600/400",description:"Wytrzymała torba na zakupy."},
+      {id:1,title:"Koszulka Minimal",price:0.30,img:"https://picsum.photos/seed/p1/600/400",description:"Bawełniana koszulka, krój regular."},
+      {id:2,title:"Kubek Poranna kawa",price:1.20,img:"https://picsum.photos/seed/p2/600/400",description:"Ceramiczny kubek 330ml."},
+      {id:3,title:"Torba płócienna",price:4.10,img:"https://picsum.photos/seed/p3/600/400",description:"Wytrzymała torba na zakupy."},
       {id:4,title:"Plakat A3",price:19.00,img:"https://picsum.photos/seed/p4/600/400",description:"Plakat drukowany na matowym papierze."}
     ];
 
