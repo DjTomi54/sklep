@@ -72,7 +72,7 @@
   </div>
 
   <!-- PayPal Sandbox SDK -->
-  <script src="https://www.paypal.com/sdk/js?client-id=AWbznFuffpw8KlOhyDmuFXJw4EDPTvK4lzfH65OwYnYLxC_Gm9VxVO781igL8tuXg22m5vrf1Es__pWU&currency=PLN"></script>
+  <script src="https://www.paypal.com/sdk/js?client-id=AQykTWh9w8PJV3j5k5ARmfWbHltq88zLlhriIxwuWG3ol7V1sbWhNBn_isWYLaB7ObgJAGuq2vv1t3e-&currency=PLN"></script>
 
   <script>
     const products=[
