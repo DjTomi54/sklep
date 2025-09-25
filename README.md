@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>MiniSklep — Demo</title>
+  <title>Deliro</title>
   <style>
-    :root{--accent:#5b21b6;--muted:#6b7280}
+    :root{--accent:#f0f0f0;--muted:#6b7280}
     *{box-sizing:border-box}
     body{font-family:Inter,system-ui,Arial,sans-serif;margin:0;background:#000000;color:#0f172a}
     .container{max-width:1100px;margin:24px auto;padding:16px}
@@ -35,8 +35,8 @@
   <div class="container">
     <header>
       <div>
-        <h1>MiniSklep — Demo</h1>
-        <div class="small">Jednoplikowy sklep — HTML/CSS/JS</div>
+        <h1>Deliro</h1>
+        <div class="small">Szybko, prosto i wygodnie</div>
       </div>
       <div class="search">
         <input id="q" placeholder="Szukaj..." />
@@ -57,10 +57,14 @@
       <aside>
         <h3>Promocja</h3>
         <p class="small">Darmowa wysyłka od 100 zł!</p>
+
+        <p class="medium"> Szanowni państwo, w tej chwili usługa "BLIK" oraz "Przelewy 24" są nieaktywne.
+        zapraszamy do płatności poprzez "PayPal" lub kartą :) 
+        Za utrudnienia przepraszamy.</p>
       </aside>
     </main>
 
-    <footer>© 2025 MiniSklep Demo</footer>
+    <footer>© 2025 DELIRO</footer>
   </div>
 
   <div id="modal" class="modal" style="display:none">
