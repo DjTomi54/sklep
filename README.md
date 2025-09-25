@@ -7,7 +7,7 @@
   <style>
     :root{--accent:#f0f0f0;--muted:#f0f0f0}
     *{box-sizing:border-box}
-    body{font-family:Inter,system-ui,Arial,sans-serif;margin:0;background:#000000;color:#b8cfc7}
+    body{font-family:Inter,system-ui,Arial,sans-serif;margin:0;background:#242626;color:#000000}
     .container{max-width:1100px;margin:24px auto;padding:16px}
     header{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;flex-wrap:wrap;gap:8px}
     h1{margin:0;font-size:20px}
