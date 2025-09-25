@@ -7,7 +7,7 @@
   <style>
     :root{--accent:#5b21b6;--muted:#6b7280}
     *{box-sizing:border-box}
-    body{font-family:Inter,system-ui,Arial,sans-serif;margin:0;background:#f8fafc;color:#0f172a}
+    body{font-family:Inter,system-ui,Arial,sans-serif;margin:0;background:#000000;color:#0f172a}
     .container{max-width:1100px;margin:24px auto;padding:16px}
     header{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;flex-wrap:wrap;gap:8px}
     h1{margin:0;font-size:20px}
@@ -71,14 +71,14 @@
     </div>
   </div>
 
-  <!-- PayPal Sandbox SDK -->
+  <!-- PayPal SDK -->
   <script src="https://www.paypal.com/sdk/js?client-id=AQykTWh9w8PJV3j5k5ARmfWbHltq88zLlhriIxwuWG3ol7V1sbWhNBn_isWYLaB7ObgJAGuq2vv1t3e-&currency=PLN"></script>
 
   <script>
     const products=[
-      {id:1,title:"Koszulka Minimal",price:0.01,img:"https://picsum.photos/seed/p1/600/400",description:"Bawełniana koszulka, krój regular."},
-      {id:2,title:"Kubek Poranna kawa",price:2.20,img:"https://picsum.photos/seed/p2/600/400",description:"Ceramiczny kubek 330ml."},
-      {id:3,title:"Torba płócienna",price:4.10,img:"https://picsum.photos/seed/p3/600/400",description:"Wytrzymała torba na zakupy."},
+      {id:1,title:"Koszulka Minimal",price:0.30,img:"https://picsum.photos/seed/p1/600/400",description:"Bawełniana koszulka, krój regular."},
+      {id:2,title:"Kubek Poranna kawa",price:29.99,img:"https://picsum.photos/seed/p2/600/400",description:"Ceramiczny kubek 330ml."},
+      {id:3,title:"Torba płócienna",price:39.50,img:"https://picsum.photos/seed/p3/600/400",description:"Wytrzymała torba na zakupy."},
       {id:4,title:"Plakat A3",price:19.00,img:"https://picsum.photos/seed/p4/600/400",description:"Plakat drukowany na matowym papierze."}
     ];
 
@@ -127,7 +127,7 @@
 
     function renderPayPalButton(total){
       if(typeof paypal==='undefined') return;
-      document.getElementById('paypal-button-container').innerHTML=''; // wyczyść poprzedni przycisk
+      document.getElementById('paypal-button-container').innerHTML='';
       paypal.Buttons({
         createOrder: function(data, actions) {
           return actions.order.create({purchase_units: [{amount:{value: total}}]});
@@ -151,7 +151,7 @@
             <button onclick="removeFromCart(${i.id})" style="margin-left:8px;">Usuń</button>
           </div>
         </div>
-      `).join('') + `<div style='margin-top:8px;font-weight:600'>Suma: ${total} zł</div>` : "Koszyk pusty";
+      `).join('') : "Koszyk pusty";
 
       document.getElementById('modal-body').innerHTML = `<h3>Twój koszyk</h3>${html}`;
       document.getElementById('modal').style.display='flex';
