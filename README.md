@@ -30,6 +30,42 @@
     .close-btn{position:absolute;top:8px;right:8px;cursor:pointer;background:#fa0202;border:none;border-radius:6px;padding:4px 8px}
     @media(max-width:880px){.grid{grid-template-columns:1fr}}
   </style>
+  <!-- Sekcja Kontakt -->
+<section id="contact" style="margin-top:40px; padding:20px; background:#fff; border-radius:10px; box-shadow:0 6px 18px rgba(15,23,42,0.06);">
+  <h2>Kontakt</h2>
+  <p>Masz pytania? Napisz do nas!</p>
+  <form onsubmit="contactSubmit(event)">
+    <div style="margin-bottom:8px;">
+      <input type="text" id="name" placeholder="Imię i nazwisko" required style="width:100%;padding:8px;border:1px solid #ccc;border-radius:6px">
+    </div>
+    <div style="margin-bottom:8px;">
+      <input type="email" id="email" placeholder="Twój email" required style="width:100%;padding:8px;border:1px solid #ccc;border-radius:6px">
+    </div>
+    <div style="margin-bottom:8px;">
+      <textarea id="message" placeholder="Twoja wiadomość" required style="width:100%;padding:8px;border:1px solid #ccc;border-radius:6px;resize:vertical"></textarea>
+    </div>
+    <button type="submit" class="primary">Wyślij</button>
+  </form>
+  <div id="contactMsg" style="margin-top:8px;color:green;"></div>
+</section>
+
+<script>
+function contactSubmit(e){
+  e.preventDefault();
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const message = document.getElementById('message').value;
+  
+  // Wersja frontendowa: wysyła maila przez mailto
+  const mailtoLink = `mailto:twoj-email@example.com?subject=Kontakt od ${encodeURIComponent(name)}&body=${encodeURIComponent(message + "\n\nEmail: " + email)}`;
+  window.location.href = mailtoLink;
+
+  document.getElementById('contactMsg').innerText = "Twoja wiadomość została przygotowana do wysłania w programie pocztowym.";
+  document.getElementById('name').value = '';
+  document.getElementById('email').value = '';
+  document.getElementById('message').value = '';
+}
+</script>
 </head>
 <body>
   <div class="container">
