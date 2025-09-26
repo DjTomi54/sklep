@@ -33,10 +33,6 @@
 </head>
 <body>
   <nav style="margin-bottom:20px; background:#1e293b; padding:10px; border-radius:8px;">
-  <a href="#shop" style="color:white; margin-right:15px; text-decoration:none;">Sklep</a>
-  <a href="#contact" style="color:white; text-decoration:none;">Kontakt</a>
-</nav>
-  <nav style="margin-bottom:20px; background:#1e293b; padding:10px; border-radius:8px;">
     <a href="#shop" style="color:white; margin-right:15px; text-decoration:none;">Sklep</a>
     <a href="#contact" style="color:white; text-decoration:none;">Kontakt</a>
   </nav>
