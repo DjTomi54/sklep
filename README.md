@@ -177,5 +177,6 @@
       renderProducts();
       updateCartCount();
     });
+                                        </script>
 </body>
 </html>
