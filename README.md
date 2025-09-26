@@ -178,5 +178,11 @@
       updateCartCount();
     });
                                         </script>
+       <section id="contact" style="margin-top:40px; padding:20px; background:#fff; border-radius:10px; box-shadow:0 6px 18px rgba(15,23,42,0.06);">
+  <h2>Kontakt</h2>
+  <p><strong>Email:</strong> kontakt@twojsklep.pl</p>
+  <p><strong>Telefon:</strong> +48 123 456 789</p>
+  <p><strong>Adres:</strong> ul. Przykładowa 1, 00-000 Warszawa</p>
+</section>                                 
 </body>
 </html>
